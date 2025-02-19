@@ -3,3 +3,5 @@
 [user]
 	email = basamba1990@yahoo.fr
 	name = Samba BA
+[http]
+	postBuffer = 524288000
