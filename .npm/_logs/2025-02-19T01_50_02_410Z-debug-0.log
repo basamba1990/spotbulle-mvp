@@ -1,0 +1,39 @@
+0 verbose cli /home/userland/.nvm/versions/node/v22.14.0/bin/node /home/userland/.nvm/versions/node/v22.14.0/bin/npm
+1 info using npm@10.9.2
+2 info using node@v22.14.0
+3 silly config load:file:/home/userland/.nvm/versions/node/v22.14.0/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/userland/.npmrc
+5 silly config load:file:/home/userland/.nvm/versions/node/v22.14.0/etc/npmrc
+6 verbose title npm start
+7 verbose argv "start"
+8 verbose logfile logs-max:10 dir:/home/userland/.npm/_logs/2025-02-19T01_50_02_410Z-
+9 verbose logfile /home/userland/.npm/_logs/2025-02-19T01_50_02_410Z-debug-0.log
+10 silly logfile start cleaning logs, removing 1 files
+11 silly logfile done cleaning log files
+12 verbose stack Error: Missing script: "start"
+12 verbose stack
+12 verbose stack Did you mean one of these?
+12 verbose stack   npm star # Mark your favorite packages
+12 verbose stack   npm stars # View packages marked as favorites
+12 verbose stack
+12 verbose stack To see a list of scripts, run:
+12 verbose stack   npm run
+12 verbose stack     at #run (/home/userland/.nvm/versions/node/v22.14.0/lib/node_modules/npm/lib/commands/run-script.js:111:13)
+12 verbose stack     at async RunScript.exec (/home/userland/.nvm/versions/node/v22.14.0/lib/node_modules/npm/lib/commands/run-script.js:40:7)
+12 verbose stack     at async Npm.exec (/home/userland/.nvm/versions/node/v22.14.0/lib/node_modules/npm/lib/npm.js:207:9)
+12 verbose stack     at async module.exports (/home/userland/.nvm/versions/node/v22.14.0/lib/node_modules/npm/lib/cli/entry.js:74:5)
+13 error Missing script: "start"
+13 error
+13 error Did you mean one of these?
+13 error   npm star # Mark your favorite packages
+13 error   npm stars # View packages marked as favorites
+13 error
+13 error To see a list of scripts, run:
+13 error   npm run
+14 verbose cwd /home/userland/spotbulle-mvp/frontend
+15 verbose os Linux 4.14.133+
+16 verbose node v22.14.0
+17 verbose npm  v10.9.2
+18 verbose exit 1
+19 verbose code 1
+20 error A complete log of this run can be found in: /home/userland/.npm/_logs/2025-02-19T01_50_02_410Z-debug-0.log

@@ -1,0 +1,7 @@
+openai-whisper==20230306
+fastapi
+uvicorn
+ffmpeg-python
+openai
+requests
+python-multipart

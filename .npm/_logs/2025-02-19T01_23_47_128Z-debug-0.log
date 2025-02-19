@@ -1,0 +1,22 @@
+0 verbose cli /home/userland/.nvm/versions/node/v22.14.0/bin/node /home/userland/.nvm/versions/node/v22.14.0/lib/node_modules/npm/bin/npm-cli.js
+1 info using npm@10.9.2
+2 info using node@v22.14.0
+3 silly config load:file:/home/userland/.nvm/versions/node/v22.14.0/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/userland/.npmrc
+5 silly config load:file:/home/userland/.nvm/versions/node/v22.14.0/etc/npmrc
+6 verbose title npm exec create-react-app frontend
+7 verbose argv "exec" "--" "create-react-app" "frontend"
+8 verbose logfile logs-max:10 dir:/home/userland/.npm/_logs/2025-02-19T01_23_47_128Z-
+9 verbose logfile /home/userland/.npm/_logs/2025-02-19T01_23_47_128Z-debug-0.log
+10 silly logfile start cleaning logs, removing 1 files
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:240123904 maxSize:60030976 maxEntrySize:30015488
+13 http fetch GET 200 https://registry.npmjs.org/create-react-app 2442ms (cache updated)
+14 silly packumentCache heap:240123904 maxSize:60030976 maxEntrySize:30015488
+15 silly packumentCache heap:240123904 maxSize:60030976 maxEntrySize:30015488
+16 verbose cwd /home/userland/spotbulle-mvp
+17 verbose os Linux 4.14.133+
+18 verbose node v22.14.0
+19 verbose npm  v10.9.2
+20 verbose exit 1
+21 verbose code 1
