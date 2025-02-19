@@ -27,4 +27,5 @@ def upload_video():
     return jsonify({"transcription": transcription, "analysis": analysis})
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    port = int(os.environ.get("PORT", 10000))  # Utilise le port donné par Render
+    app.run(host="0.0.0.0", port=port)
