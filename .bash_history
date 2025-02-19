@@ -560,3 +560,8 @@ source venv/bin/activate
 git add .
 source venv/bin/activate
 sudo pip show gunicorn
+source venv/bin/activate
+micro requirements.txt
+git status
+git add .
+git commit -m "Correction du fichier app.py et ajout de gunicorn"
