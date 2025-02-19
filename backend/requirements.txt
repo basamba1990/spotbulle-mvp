@@ -1,0 +1,6 @@
+flask
+flask-cors
+google-cloud-speech
+google-cloud-storage
+google-generativeai
+werkzeug
