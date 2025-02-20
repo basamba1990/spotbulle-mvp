@@ -565,3 +565,87 @@ micro requirements.txt
 git status
 git add .
 git commit -m "Correction du fichier app.py et ajout de gunicorn"
+git add .
+git commit -m "Correction du fichier app.py et ajout de gunicorn"
+source venv/bin/activate
+deactivate 
+git push origin master
+echo "web: gunicorn backend.app:app --bind 0.0.0.0:10000 --timeout 120" > Procfile
+git add Procfile
+git commit -m "Ajout du Procfile"
+git push origin master
+micro requirement.txt
+micro requirements.txt
+pip freeze > requirements.txt
+git add requirements.txt
+git commit -m "Mise à jour des dépendances"
+git push origin master
+pip install gunicorn
+pip freeze > requirements.txt
+git add requirements.txt
+git commit -m "Ajout de Gunicorn"
+git push origin master
+pip install flask
+pip freeze > requirements.txt
+git add requirements.txt
+git commit -m "Ajout de Flask"
+git add requirements.txt
+git commit -m "Ajout de Flask à requirements.txt"
+poetry add flask
+poetry lock
+source venv/bin/activate
+poetry add flask
+poetry lock
+poetry --version
+curl -sSL https://install.python-poetry.org | python3 -
+deactivate
+curl -sSL https://install.python-poetry.org | python3 -
+cat /home/userland/poetry-installer-error-dw7c4evq.log
+curl -sSL https://install.python-poetry.org | python3 -
+source venv/bin/activate
+sudo pip install poetry
+poetry --version
+poetry add flask
+pwd
+ls
+deactivate
+pwd
+ls
+cd spotbulle-mvp
+cd ..
+cd spotbulle-mvp
+poetry init
+deactivate
+cd ..
+cd backend
+poetry init
+cd ..
+poetry add flask
+poetry lock
+git add Procfile
+git commit -m "Correction du Procfile"
+git push origin master
+git add requirements.txt
+git commit -m "Ajout de Flask à requirements.txt"
+git add .
+git commit -m "Ajout de Flask à requirements.txt"
+git push origin master
+cd backend
+micro requirements.txt
+pip install gunicorn
+pip freeze > requirements.txt
+git add requirements.txt
+git commit -m "Ajout de Gunicorn"
+git push origin master
+git add Procfile requirements.txt
+git commit -m "Correction du Procfile"
+git push origin master
+git add Procfile
+git commit -m "Correction du Procfile"
+git push origin master
+git add
+git commit -m "Correction du Procfile"
+git push origin master
+git add .
+git commit -m "Correction du Procfile"
+git push origin master
