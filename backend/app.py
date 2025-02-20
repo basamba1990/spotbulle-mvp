@@ -2,8 +2,8 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS
 import os
 from werkzeug.utils import secure_filename
-from models.transcriber import transcribe_video
-from models.analyzer import analyze_text
+from backend.models.transcriber import transcribe_video
+from backend.models.analyzer import analyze_text
 
 app = Flask(__name__)
 CORS(app)  # Gérer les requêtes cross-origin
